@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    border-bottom: 2px solid black;
+    padding: 0;
+    margin: 0;
+    color: white;
+    user-select: none;
+}
+.bodynav{
+    padding: 0%;
+}
+.links a{
+    text-decoration: none;
+    padding: 0%;
+    color: white;
+}
+.links a:hover{
+    color: purple;
+}
+.links{
+    padding: 0%;
+}
+.section1{
+    background-image: url(../img/wallpapersden.com_vaporwave-city-night_2560x1440.jpg);
+    background-size: cover;
+}
+.imagewelcome{
+    height: 429px;
+    align-items: center;
+}
+.imagewelcome h1{
+    color: white;
+    user-select: none;
+}
+@media screen and (max-width:576px) {
+    .section1{
+        background-size: contain;
+        height: 200px;
+    }
+    .imagewelcome{
+        height: 161px;
+        align-items: center;
+    }
+}
+.progress{
+    height: 24px;
+}
+.profilepic{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}
+.section3{
+    margin-top: 10px;
+}
+.section3 a{
+    color: black;
+}
+.section1, .section2, .section3{
+    border-bottom: 2px solid black;
+    
+}
+#AboutMe{
+    margin: 0%;
+}
